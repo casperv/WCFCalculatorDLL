@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{B7E6DA2B-CFD8-4044-9544-5ECAA650440E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorConsumer", "CalculatorConsumer\CalculatorConsumer.csproj", "{9BA47A5B-A467-4DC2-8647-3AE869507997}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B7E6DA2B-CFD8-4044-9544-5ECAA650440E} = {B7E6DA2B-CFD8-4044-9544-5ECAA650440E}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{B7E6DA2B-CFD8-4044-9544-5ECAA650440E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7E6DA2B-CFD8-4044-9544-5ECAA650440E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7E6DA2B-CFD8-4044-9544-5ECAA650440E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA47A5B-A467-4DC2-8647-3AE869507997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA47A5B-A467-4DC2-8647-3AE869507997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA47A5B-A467-4DC2-8647-3AE869507997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA47A5B-A467-4DC2-8647-3AE869507997}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
